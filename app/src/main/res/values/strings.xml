@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vehical Manager</string>
+    <string name="btn_Save">Save</string>
+    <string name="btn_Go">Go</string>
+    <string name="mnu_ManagerClaasify">Classify Manager</string>
+    <string name="mnu_Classify">Classify</string>
+    <string name="mnu_About">About</string>
+    <string name="mnu_exit">Exit</string>
+    <string name="textview_username_login">Username</string>
+    <string name="textview_password_login">Password</string>
+    <string name="textview_login">LOGIN</string>
+    <string name="txt_CLassify">Classify</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_maVehical">ID:</string>
+    <string name="txt_tenVehical">Name:</string>
+    <string name="txt_loaiVehical">Classify:</string>
+    <string name="txt_giaVehical">Price:</string>
+    <string name="txt_motaVehical">Describe:</string>
+    <string name="txt_maClassify">ID:</string>
+    <string name="txt_name_Classify">Name:</string>
+    <string name="txt_quanlyPhanLoai">Classify Manager</string>
+    <string name="txt_error_empty">Must not be empty</string>
+
+</resources>

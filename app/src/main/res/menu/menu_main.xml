@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuQuanLyPhanLoai"
+        android:title="Quản Lý Loại" />
+    <item
+        android:id="@+id/mnuPhanLoai"
+        android:title="Phân Loại " />
+
+    <item
+        android:id="@+id/mnuThongTinUngDung"
+        android:title=" Thông Tin Ứng Dụng" />
+
+    <item
+        android:id="@+id/mnuThoat"
+        android:title=" Thoát" />
+
+
+</menu>
