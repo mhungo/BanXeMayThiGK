@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vehical Manager</string>
+    <string name="btn_Save">Lưu</string>
+    <string name="btn_Go">Đi</string>
+    <string name="mnu_TrangChu">Trang Chủ</string>
+    <string name="mnu_ManagerClaasify">Quản lý phân loại</string>
+    <string name="mnu_Classify">Phân loại</string>
+    <string name="mnu_About">Thông tin ứng dụng</string>
+    <string name="mnu_exit">Thoát</string>
+    <string name="text_about_thongtincanhan">Thông tin</string>
+    <string name="textview_username_login">Tài khoản</string>
+    <string name="textview_password_login">Mật khẩu</string>
+    <string name="textview_login_susscessfull">Đăng nhập thành công</string>
+    <string name="textview_login_fail">Đăng nhập thất bại</string>
+    <string name="textview_login">Đăng nhập</string>
+    <string name="txt_CLassify">Phân loại</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="txt_maVehical">Mã:</string>
+    <string name="txt_tenVehical">Tên:</string>
+    <string name="txt_loaiVehical">Loại:</string>
+    <string name="txt_giaVehical">Giá:</string>
+    <string name="txt_motaVehical">Mô tả:</string>
+    <string name="txt_maClassify">Mã:</string>
+    <string name="txt_name_Classify">Tên:</string>
+    <string name="txt_quanlyPhanLoai">Quản lý phân loại</string>
+    <string name="txt_error_empty">Không được để trống</string>
+    <string name="txt_message_title_CanhBao">Cảnh báo</string>
+    <string name="txt_message_title_TuyChon">Tùy chọn</string>
+    <string name="txt_message_title_MoiChonChucNangSau">Vui lòng chọn một trong hai tùy chọn sau</string>
+    <string name="txt_message_title_BanCoMuonXoaKhong">Bạn có chắc muốn xóa không?</string>
+    <string name="txt_message_title_KhongDuocXoa">Tồn tại xe thuộc loại không được xóa!</string>
+    <string name="txt_nagative_Sua">Sửa</string>
+    <string name="txt_nagative_Xoa">Xóa</string>
+    <string name="txt_nagative_btn_Yes">Đồng ý</string>
+    <string name="txt_nagative_btn_No">Không</string>
+    <string name="txt_nagative_XemChiTiet">Xem chi tiết</string>
+    <string name="txt_message_LuuThanhCong">Lưu thành công</string>
+    <string name="txt_message_Dasuaxong">Cập nhật thành công</string>
+    <string name="txt_message_ActivityTrangChu">Bạn đang ở màn hình Trang Chủ</string>
+    <string name="txt_message_ActivityQuanLyPhanLoai">Bạn đang ở màn hình Quản lý phân loại</string>
+    <string name="txt_message_ActivityPhanLoai">Bạn đang ở màn hình Phân loại</string>
+    <string name="txt_message_ActivityThongTinCaNhan">Bạn đang ở màn hình Thông tin cá nhân</string>
+    <string name="txt_message_BanChuaCapQuyenCamera">Bạn chưa cấp quyền truy cập ảnh</string>
+    <string name="txt_ghi_nho_mat_khau">Ghi nhớ tài khoản</string>
+
+
+</resources>

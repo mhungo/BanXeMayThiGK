@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import vn.edu.stu.Model.Vehical;
 
 public class DBConfigUtil {
     final static String DATABASE_NAME = "XeMayDB.sqlite";
@@ -25,7 +24,6 @@ public class DBConfigUtil {
             Context context = GlobalApplication.getAppContext();
             copyDatabaseFromAssets(context, DB_PATH_SUFFIX, DATABASE_NAME);
             database = context.openOrCreateDatabase(DATABASE_NAME, context.MODE_PRIVATE, null);
-
         }
         return database;
     }
@@ -97,10 +95,10 @@ public class DBConfigUtil {
 
         ContentValues row = new ContentValues();
         row.put("ten", ten);
-        row.put("maloai",maloai);
-        row.put("gia",gia);
-        row.put("mota",mota);
-        row.put("hinh",hinh);
+        row.put("maloai", maloai);
+        row.put("gia", gia);
+        row.put("mota", mota);
+        row.put("hinh", hinh);
 
         int updatedRowCount = database.update(
                 "Vehical",
@@ -108,7 +106,6 @@ public class DBConfigUtil {
                 "ma = ?",
                 new String[]{ma}
         );
-
     }
 
     public static void deleteData(String ma) {
@@ -117,7 +114,7 @@ public class DBConfigUtil {
         int deleteRowCount = database.delete(
                 "Sach_TBL",
                 "ma = ?",
-                new String[] {ma}
+                new String[]{ma}
         );
     }
 
@@ -134,6 +131,21 @@ public class DBConfigUtil {
         if (returnValue < 0) {
             Log.e("ERR", "them that bai");
         }
+    }
+
+    public static void updateDataClassify(String ten, String ma) {
+
+        SQLiteDatabase database = getDatabase();
+
+        ContentValues row = new ContentValues();
+        row.put("tenloai", ten);
+
+        int updatedRowCount = database.update(
+                "Classify",
+                row,
+                "maloai = ?",
+                new String[]{ma}
+        );
 
     }
 

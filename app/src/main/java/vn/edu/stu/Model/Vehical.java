@@ -1,6 +1,7 @@
 package vn.edu.stu.Model;
 
 import java.io.Serializable;
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Vehical implements Serializable {
@@ -70,5 +71,25 @@ public class Vehical implements Serializable {
 
     public void setHinh(byte[] hinh) {
         this.hinh = hinh;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehical vehical = (Vehical) o;
+        return ma == vehical.ma &&
+                maloai == vehical.maloai &&
+                ten.equals(vehical.ten) &&
+                gia.equals(vehical.gia) &&
+                mota.equals(vehical.mota) &&
+                Arrays.equals(hinh, vehical.hinh);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(ma, ten, maloai, gia, mota);
+        result = 31 * result + Arrays.hashCode(hinh);
+        return result;
     }
 }

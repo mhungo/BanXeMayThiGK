@@ -1,7 +1,6 @@
 package vn.edu.stu.adapter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,7 @@ import androidx.annotation.Nullable;
 import java.util.List;
 
 import vn.edu.stu.Model.Classify;
-import vn.edu.stu.thigkbansmartphone.R;
+import vn.edu.stu.thigkbanxemay.R;
 
 public class ClassifyAdapter extends ArrayAdapter<Classify> {
     Activity context;

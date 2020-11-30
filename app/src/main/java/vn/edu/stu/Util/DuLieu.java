@@ -48,7 +48,6 @@ public class DuLieu {
 
             Vehical vehical = new Vehical(ma, ten, maloai, gia, mota, hinh);
             dsXeMay.add(vehical);
-
         }
         cursor.close();
     }
@@ -72,7 +71,6 @@ public class DuLieu {
 
             Classify classify = new Classify(maloai, tenloai);
             dsLoai.add(classify);
-
         }
         cursor.close();
     }

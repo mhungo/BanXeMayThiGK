@@ -38,7 +38,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="mhung.."
             android:inputType="text"
             android:textAlignment="center" />
 
@@ -70,11 +69,17 @@
 
     </LinearLayout>
 
+    <CheckBox
+        android:id="@+id/chkRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_ghi_nho_mat_khau" />
+
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:text="@string/btn_login"
         android:textColor="#3A0881"
         android:textSize="16sp"

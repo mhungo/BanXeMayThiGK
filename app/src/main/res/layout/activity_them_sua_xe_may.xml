@@ -19,7 +19,7 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:background="#C4ABBDEF"
-            android:src="@mipmap/ic_launcher_round" />
+            android:src="@drawable/icon_xemay" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -128,7 +128,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="3"
                 android:hint="28000000"
-                android:inputType="text"
+                android:inputType="number"
                 android:textColor="#FF0000"
                 android:textSize="20sp" />
 

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuTRangChu"
+        android:title="@string/mnu_TrangChu" />
     <item
         android:id="@+id/mnuQuanLyPhanLoai"
-        android:title="Quản Lý Loại" />
+        android:title="@string/mnu_ManagerClaasify" />
     <item
         android:id="@+id/mnuPhanLoai"
-        android:title="Phân Loại " />
+        android:title="@string/mnu_Classify" />
 
     <item
         android:id="@+id/mnuThongTinUngDung"
-        android:title=" Thông Tin Ứng Dụng" />
+        android:title="@string/mnu_About" />
 
     <item
         android:id="@+id/mnuThoat"
-        android:title=" Thoát" />
-
+        android:title="@string/mnu_exit" />
 
 </menu>

@@ -2,12 +2,16 @@
     <string name="app_name">Vehical Manager</string>
     <string name="btn_Save">Save</string>
     <string name="btn_Go">Go</string>
+    <string name="mnu_TrangChu">Home</string>
     <string name="mnu_ManagerClaasify">Classify Manager</string>
     <string name="mnu_Classify">Classify</string>
     <string name="mnu_About">About</string>
     <string name="mnu_exit">Exit</string>
+    <string name="text_about_thongtincanhan">Information</string>
     <string name="textview_username_login">Username</string>
     <string name="textview_password_login">Password</string>
+    <string name="textview_login_susscessfull">Login Susscessfull</string>
+    <string name="textview_login_fail">Login Fail</string>
     <string name="textview_login">LOGIN</string>
     <string name="txt_CLassify">Classify</string>
     <string name="btn_login">Login</string>
@@ -20,5 +24,24 @@
     <string name="txt_name_Classify">Name:</string>
     <string name="txt_quanlyPhanLoai">Classify Manager</string>
     <string name="txt_error_empty">Must not be empty</string>
+    <string name="txt_message_title_CanhBao">Warning</string>
+    <string name="txt_message_title_TuyChon">Option</string>
+    <string name="txt_message_title_MoiChonChucNangSau">Please choose one of the two following functions</string>
+    <string name="txt_message_title_BanCoMuonXoaKhong">Are you sure you want to delete it?</string>
+    <string name="txt_message_title_KhongDuocXoa">Exists vehicle attributes that cannot be deleted!</string>
+    <string name="txt_nagative_Sua">Edit</string>
+    <string name="txt_nagative_Xoa">Delete</string>
+    <string name="txt_nagative_btn_Yes">Yes</string>
+    <string name="txt_nagative_btn_No">No</string>
+    <string name="txt_nagative_XemChiTiet">See details</string>
+    <string name="txt_message_LuuThanhCong">Saved</string>
+    <string name="txt_message_Dasuaxong">Update susccessfull</string>
+    <string name="txt_message_ActivityTrangChu">You are in the Home screen</string>
+    <string name="txt_message_ActivityQuanLyPhanLoai">You are in the Classify Management screen</string>
+    <string name="txt_message_ActivityPhanLoai">You are in the Classify screen</string>
+    <string name="txt_message_ActivityThongTinCaNhan">You are in the About screen</string>
+    <string name="txt_message_BanChuaCapQuyenCamera">You have not authorized allbum</string>
+    <string name="txt_ghi_nho_mat_khau">Remember me</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

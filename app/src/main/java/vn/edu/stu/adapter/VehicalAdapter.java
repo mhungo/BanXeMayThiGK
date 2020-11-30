@@ -1,7 +1,6 @@
 package vn.edu.stu.adapter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
@@ -22,7 +21,7 @@ import java.util.List;
 import vn.edu.stu.Model.Classify;
 import vn.edu.stu.Model.Vehical;
 import vn.edu.stu.Util.DBConfigUtil;
-import vn.edu.stu.thigkbansmartphone.R;
+import vn.edu.stu.thigkbanxemay.R;
 
 public class VehicalAdapter extends ArrayAdapter<Vehical> {
     Activity context;
